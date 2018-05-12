@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xzmc.zzzt.doctorguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".RegisterActivity">
+
+        </activity>
+        <activity android:name=".LoginActivity">
+
+        </activity>
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".keshiActivity.XiaoHuaActivity"/>
+        <activity android:name=".keshiActivity.XinXueGuanActivity"/>
+        <activity android:name=".keshiActivity.MiNiaoActivity"/>
+        <activity android:name=".keshiActivity.HuXiActivity"/>
+        <activity android:name=".keshiActivity.ShenjinActivity"/>
+        <activity android:name=".keshiActivity.Guke"/>
+        <activity android:name=".ZhengZhuangDetailActivity"/>
+        <activity android:name=".toolBarTest.TestActivity">
+
+
+        </activity>
+        <activity android:name=".toolBarTest.TextActivity2"/>
+    </application>
+
+</manifest>
